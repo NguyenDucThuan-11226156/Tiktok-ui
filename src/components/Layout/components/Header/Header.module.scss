@@ -17,7 +17,9 @@
 
 .logo {
 }
-
+.search-result {
+  width: 361px;
+}
 .search {
   position: relative;
   display: flex;
@@ -77,4 +79,9 @@
   &:active {
     background-color: rgba(22, 24, 32, 0.06);
   }
+}
+.search-title {
+  font-size: 1.4rem;
+  color: rgba(22, 24, 35, 0.5);
+  padding-left: 8px;
 }
