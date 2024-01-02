@@ -8,6 +8,7 @@
   --black: #000;
   --text-color: #333;
   --white: #fff;
+  --default-layout-horizontal-spacer: 24px;
 }
 * {
   margin: 0;
@@ -34,4 +35,17 @@ input,
 a[href] {
   color: var(--text-color);
   text-decoration: none;
+}
+body {
+  .tippy-box {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+
+    background-color: rgba(84, 84, 84, 0.92);
+  }
+  .tippy-arrow {
+    color: rgba(84, 84, 84, 0.92);
+  }
 }
